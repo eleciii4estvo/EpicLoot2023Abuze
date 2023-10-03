@@ -45,6 +45,7 @@
 10. Скрипт прекратит свою работу после того, как вы закроете консоль
 11. Приятного использования!
 
+
 # En
 **Script will work until NOVEMBER 20, 2023.
 
@@ -90,5 +91,3 @@ On top of that, 800 attempts are needed for the most important reward, but even 
 9. That's it! You don't need to do anything else. In the command line will be all the information (after what time the browser will reopen to pick up the reward, how many rewards picked up during the time, how many rewards you have in total).
 10. The script will stop running after you close the console
 11. Enjoy using it!
-
-Translated with www.DeepL.com/Translator (free version)
