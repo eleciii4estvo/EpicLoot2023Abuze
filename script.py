@@ -24,11 +24,21 @@ try:
             driver.get(url=url)
             time.sleep(2)
             try:
+                driver.find_element(By.CSS_SELECTOR, '.header-auth__button-steam').click()
+                time.sleep(2)
+                driver.find_element(By.CLASS_NAME, 'btn_green_white_innerfade').click()
+                time.sleep(2)
+                driver.find_element(By.CSS_SELECTOR, '.header-menu__item.battle-pass').click()
+                print('Повторная авторизация прошла успешно!')
+            except:
+                print('Вход успешно выполнен')
+            try:
+                time.sleep(2)
                 gifts = driver.find_element(By.CLASS_NAME, 'game-actions__online').text
                 driver.find_element(By.CLASS_NAME, 'game-gift__take').click()
+                print('Награда получена!')
                 count +=1
                 gifts = driver.find_element(By.CLASS_NAME, 'game-actions__online').text
-                print('Награда получена!')
                 print(f'Всего наград: {gifts}')
                 print(f'За время выполнения скрипта получено: {count}')
                 print(f'Ждем час...')
