@@ -47,11 +47,11 @@
 
 
 # En
-**Script will work until NOVEMBER 20, 2023.
+**Script will work until NOVEMBER 20, 2023.**
 
 **After that, the event on the site will END and there will be nothing to farm XD**.
 
-**Be sure to read the instructions below before using it! **
+**Be sure to read the instructions below before using it!**
 
 ## What is it?
 The [EpicLoot](https://epicloot.in) website is running a promotion in the form of a free battle pass with a mini-game called "Treasure Hunt" - the idea is that every hour you can get a free attempt to play the mini-game, and those attempts add up.
